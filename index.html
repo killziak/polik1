@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кіно у Рівному</title>
+    <link rel="icon" type="image/svg+xml" href="/Фото/Cinema Film Movie Icon.svg">
+    <link rel="stylesheet" href="/CSS/style.css"> <!-- Підключення CSS -->
+    <link rel="stylesheet" href="/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="/dist/assets/owl.theme.default.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="/Фото/Cinema Film Movie Icon.svg" alt="Логотип" class="logo">
+        <div>
+            <h1>Кіно у Рівному</h1>
+            <p>Наші Контакти</p>
+        </div>
+    </header>
+    <nav>
+        <a href="index.html">Головна</a>
+        <a href="rozklad.html">Розклад</a>
+        <a href="Reclama.html">Реклама</a>
+        <a href="kontaktu.html">Контакти</a>
+    </nav>
+    <div class="container">
+        <div class="Zaraz">
+        <h1>Зараз у прокаті</h1>
+            </div>
+        <div class="movies">
+            <div class="movie">
+                <img src="/Фото/гладіатор.jpg" alt="Гладіатор II">
+                <h3>Гладіатор II</h3>
+                <h4>Короткий опис фільму.</h4>
+                <p>Минуло близько чверті століття від подій, показаних в попередньому фільмі. Люціус (Пол Мескаль), онук колишнього імператора та син Луцилли (Конні Нільсен) живе з дружиною та сином на північному узбережжі Африки. Вторгнення римлян на чолі з Маркусом (Педро Паскаль) призводить до того, що він стає рабом. Пам'ять про славетні бої гладіатора Максимуса змушує чоловіка теж стати гладіатором.</p>
+            </div>
+            <div class="movie">
+                <img src="/Фото/Дикий робот.jpg" alt="Дикий робот">
+                <h3>Дикий робот</h3>
+                <h4>Короткий опис фільму.</h4>
+                <p>В наслідок катастрофи на безлюдному острові опиняється робот Роз (Лупіта Ньон'о). Незвіданий світ, наповнений не баченими раніше формами життя, несе чимало небезпек, навіть якщо ти робот і маєш міцний корпус. Аби вижити, Роз доведеться познайомитися ближче з усіма мешканцями острову та навіть подбати про маленьке осиротіле гусенятко. </p>
+            </div>
+            <div class="movie">
+                <img src="/Фото/веном.jpg" alt="Веном: Останній Танець">
+                <h3>Веном: Останній Танець</h3>
+                <h4>Короткий опис фільму.</h4>
+                <p>Журналіст-розслідувач Едді Брок (Том Гарді) сам того не бажаючи став єдиним на Землі носієм інопланетної форми життя. У ньому живе Веном – симбіот, який потребує для себе живого носія-людину. Симбіоти давно вже шукають планету, на якій змогли б заволодіти тілами її мешканців та зрештою поглинути їх. Едді та Веном знаходять спільну мову та йдуть на компроміси, аби співіснувати. Настає час, коли Едді для людей, а Веном для своєї раси стають чужинцями. Разом вони тікатимуть від усіх, хто хоче їх знайти.</p>
+            </div>
+            <div class="movie">
+                <img src="/Фото/Пригоди Панди в Африці.jpg" alt="Пригоди Панди в Африці">
+                <h3>Пригоди Панди в Африці</h3>
+                <h4>Короткий опис фільму.</h4>
+                <p>Дехто дуже боїться подорожей, а хтось навпаки – любить їх понад усе. А бувають ситуації, коли ти змушений вирушати в далеку путь аби врятувати друга. Саме у такій ситуації опинився відважний Панда, який все життя провів у Китаї, у своєму бамбуковому лісі. Аби знайти викраденого дракончика він ладен відправитися у незвідані краї. Африка населена тваринами, яких він раніше не бачив, і це неабияк може злякати. Та думати про все це немає часу, допоки кращий друг знаходиться у небезпеці.</p>
+            </div>
+    </div>
+</div>
+        <div class="owl">
+            <div class="Zaraz">
+            <h1>Наші відвідувачі на минулому тижні!</h1>
+            </div>
+            <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+            <script src="/dist/owl.carousel.min.js"></script>
+            <script>
+                $(document).ready(function(){
+                    $('.owl-carousel').owlCarousel({
+                        loop: true,            // Зациклення
+                        margin: 10,            // Відступ між елементами
+                        nav: true,             // Кнопки навігації
+                        responsive: {
+                            0: {
+                                items: 1       // 1 елемент для екранів до 600px
+                            },
+                            600: {
+                                items: 3       // 3 елементи для екранів до 1000px
+                            },
+                            1000: {
+                                items: 5       // 5 елементів для більших екранів
+                            }
+                        }
+                    });
+                });
+                </script>
+                
+              </script>
+            <!-- Set up your HTML -->
+            <div class="owl-carousel owl-theme">
+                <div class="item"><img src="/Фото/1.jpg" alt="Image 1"></div>
+                <div class="item"><img src="/Фото/2.jpg" alt="Image 2"></div>
+                <div class="item"><img src="/Фото/3.jpg" alt="Image 3"></div>
+                <div class="item"><img src="/Фото/4.jpg" alt="Image 1"></div>
+                <div class="item"><img src="/Фото/5.jpg" alt="Image 2"></div>
+                <div class="item"><img src="/Фото/6.jpg" alt="Image 3"></div>
+                <!-- Додайте більше елементів за потребою -->
+            </div>
+            
+    </div>
+    <footer>
+        &copy; 2024 Кіно у Рівному. Усі права захищено. Поліщук Максим ПП-27
+    </footer>
+
+    <script>
+
+        $(document).ready(function(){
+    
+            $('.owl-carousel').owlCarousel();
+    
+        });
+    
+    </script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    
+</body>
+</html>
